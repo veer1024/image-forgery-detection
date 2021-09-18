@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Admin Panel</title></head>
+<body>
+<h1><center>Upload new model [ h5 format ] && name must be my_model.h5 </center> </h1>
+<form method=post enctype=multipart/form-data>
+      <input type=file name=model_file>
+      <input type=submit value=upload>
+      </form>
+      <h3> {{message}}</h3><br>
+      <h3> {{prediction}}</h3>
+</body>
+</html>
